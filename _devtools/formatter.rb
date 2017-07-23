@@ -38,7 +38,7 @@ type #{interface} struct {
 }
 
 type #{interface}Vtbl struct {
-  ole.#{parent_interface}Btbl
+  ole.#{parent_interface}Vtbl
 heredoc
 
 methods.each {|m| puts "  #{m} uintptr\n" }
