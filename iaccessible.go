@@ -11,7 +11,7 @@ type IAccessible struct {
 }
 
 type IAccessibleVtbl struct {
-	ole.IDispatchBtbl
+	ole.IDispatchVtbl
 	Get_accParent           uintptr
 	Get_accChildCount       uintptr
 	Get_accChild            uintptr
