@@ -40,85 +40,85 @@ func (v *IAccessible) VTable() *IAccessibleVtbl {
 }
 
 func (v *IAccessible) Get_accParent() error {
-	return nil
+	return ole.NewError(ole.E_NOTIMPL)
 }
 
 func (v *IAccessible) Get_accChildCount() error {
-	return nil
+	return ole.NewError(ole.E_NOTIMPL)
 }
 
 func (v *IAccessible) Get_accChild() error {
-	return nil
+	return ole.NewError(ole.E_NOTIMPL)
 }
 
 func (v *IAccessible) Get_accName() error {
-	return nil
+	return ole.NewError(ole.E_NOTIMPL)
 }
 
 func (v *IAccessible) Get_accValue() error {
-	return nil
+	return ole.NewError(ole.E_NOTIMPL)
 }
 
 func (v *IAccessible) Get_accDescription() error {
-	return nil
+	return ole.NewError(ole.E_NOTIMPL)
 }
 
 func (v *IAccessible) Get_accRole() error {
-	return nil
+	return ole.NewError(ole.E_NOTIMPL)
 }
 
 func (v *IAccessible) Get_accState() error {
-	return nil
+	return ole.NewError(ole.E_NOTIMPL)
 }
 
 func (v *IAccessible) Get_accHelp() error {
-	return nil
+	return ole.NewError(ole.E_NOTIMPL)
 }
 
 func (v *IAccessible) Get_accHelpTopic() error {
-	return nil
+	return ole.NewError(ole.E_NOTIMPL)
 }
 
 func (v *IAccessible) Get_accKeyboardShortcut() error {
-	return nil
+	return ole.NewError(ole.E_NOTIMPL)
 }
 
 func (v *IAccessible) Get_accFocus() error {
-	return nil
+	return ole.NewError(ole.E_NOTIMPL)
 }
 
 func (v *IAccessible) Get_accSelection() error {
-	return nil
+	return ole.NewError(ole.E_NOTIMPL)
 }
 
 func (v *IAccessible) Get_accDefaultAction() error {
-	return nil
+	return ole.NewError(ole.E_NOTIMPL)
 }
 
 func (v *IAccessible) AccSelect() error {
-	return nil
+	return ole.NewError(ole.E_NOTIMPL)
 }
 
 func (v *IAccessible) AccLocation() error {
-	return nil
+	return ole.NewError(ole.E_NOTIMPL)
 }
 
-func (v *IAccessible) AccNavigate() error {
-	return nil
+func (v *IAccessible) AccNavigate(navdir uint32, varStart *ole.VARIANT, varEndUpAt **ole.VARIANT) error {
+	return accNavigate(v, navdir, varStart, varEndUpAt)
 }
 
 func (v *IAccessible) AccHitTest() error {
-	return nil
+	return ole.NewError(ole.E_NOTIMPL)
 }
 
 func (v *IAccessible) AccDoDefaultAction() error {
-	return nil
+	return ole.NewError(ole.E_NOTIMPL)
 }
 
 func (v *IAccessible) Put_accName() error {
-	return nil
+	return ole.NewError(ole.E_NOTIMPL)
 }
 
 func (v *IAccessible) Put_accValue() error {
-	return nil
+	return ole.NewError(ole.E_NOTIMPL)
 }
