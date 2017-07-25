@@ -25,7 +25,8 @@ File.open(ARGV[0], "r").each_line do |line|
 end
 
 puts <<heredoc
-package main
+// #{interface.downcase}.go
+package oleacc
 
 import (
   "unsafe"
@@ -55,7 +56,7 @@ heredoc
 methods.each do |method|
   puts <<heredoc
 func (v *#{interface}) #{method}() error {
-  return nil
+  return ole.NewError(ole.E_NOTIMPL)
 }
 
 heredoc
