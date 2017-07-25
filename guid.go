@@ -1,4 +1,4 @@
-package waa
+package oleacc
 
 import (
 	"github.com/go-ole/go-ole"

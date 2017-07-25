@@ -1,6 +1,6 @@
 // +build windows
 
-package waa
+package oleacc
 
 import (
 	"syscall"
