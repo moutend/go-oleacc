@@ -7,11 +7,11 @@ import (
 )
 
 type IUIAutomationTextRange2 struct {
-	ole.IUIAutomationTextRange
+	IUIAutomationTextRange
 }
 
 type IUIAutomationTextRange2Vtbl struct {
-	ole.IUIAutomationTextRangeVtbl
+	IUIAutomationTextRangeVtbl
 	ShowContextMenu uintptr
 }
 
