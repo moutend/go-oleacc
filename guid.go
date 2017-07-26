@@ -40,4 +40,5 @@ var (
 	IID_IUIAutomationScrollItemPattern               = ole.NewGUID("{b488300f-d015-4f19-9c29-bb595e3645ef}")
 	IID_IUIAutomationTextChildPattern                = ole.NewGUID("{6552b038-ae05-40c8-abfd-aa08352aab86}")
 	IID_IUIAutomationSpreadsheetItemPattern          = ole.NewGUID("{7d4fb86c-8d34-40e1-8e83-62c15204e335}")
+	IID_IUIAutomationObjectModelPattern              = ole.NewGUID("{71c284b3-c14d-4d14-981e-19751b0d756d}")
 )
