@@ -66,4 +66,5 @@ var (
 	IID_IUIAutomationDropTargetPattern               = ole.NewGUID("{69a095f7-eee4-430e-a46b-fb73b1ae39a5}")
 	IID_IUIAutomationTextPattern                     = ole.NewGUID("{32eba289-3583-42c9-9c59-3b6d9a1e9b6a}")
 	IID_IUIAutomationTextPattern2                    = ole.NewGUID("{506a921a-fcc9-409f-b23b-37eb74106872}")
+	IID_IUIAutomationTextRangeArray                  = ole.NewGUID("{ce4ae76a-e717-4c98-81ea-47371d028eb6}")
 )
