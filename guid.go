@@ -46,4 +46,5 @@ var (
 	IID_IUIAutomationTransformPattern2               = ole.NewGUID("{6d74d017-6ecb-4381-b38b-3c17a48ff1c2}")
 	IID_IUIAutomationRangeValuePattern               = ole.NewGUID("{59213f4f-7346-49e5-b120-80555987a148}")
 	IID_IUIAutomationTextRange2                      = ole.NewGUID("{BB9B40E0-5E04-46BD-9BE0-4B601B9AFAD4}")
+	IID_IUIAutomationTextRange3                      = ole.NewGUID("{6A315D69-5512-4C2E-85F0-53FCE6DD4BC2}")
 )
