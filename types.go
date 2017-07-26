@@ -14,3 +14,13 @@ type UiaChangeInfo struct {
 	payload   ole.VARIANT
 	extraInfo ole.VARIANT
 }
+
+type WCHAR uintptr
+type OLECHAR WCHAR
+type BSTR *OLECHAR
+type LPBSTR *BSTR
+
+type ExtendedProperty struct {
+	PropertyName  BSTR
+	PropertyValue BSTR
+}
