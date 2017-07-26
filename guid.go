@@ -5,7 +5,8 @@ import (
 )
 
 var (
-	IID_CUIAutomation = ole.NewGUID("{ff48dba4-60ef-4201-aa87-54103eef594e}")
+	IID_CUIAutomation  = ole.NewGUID("{ff48dba4-60ef-4201-aa87-54103eef594e}")
+	IID_CUIAutomation8 = ole.NewGUID("{e22ad333-b25f-460c-83d0-0581107395c9}")
 
 	IID_IAccessible                                  = ole.NewGUID("{618736e0-3c3d-11cf-810c-00aa00389b71}")
 	IID_IUIAutomationSpreadsheetPattern              = ole.NewGUID("{7517a7c8-faae-4de9-9f08-29b91e8595c1}")
