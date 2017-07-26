@@ -55,4 +55,5 @@ var (
 	IID_IUIAutomationDragPattern                     = ole.NewGUID("{1dc7b570-1f54-4bad-bcda-d36a722fb7bd}")
 	IID_IUIAutomationWindowPattern                   = ole.NewGUID("{0faef453-9208-43ef-bbb2-3b485177864f}")
 	IID_IUIAutomationBoolCondition                   = ole.NewGUID("{1b4e1f2e-75eb-4d0b-8952-5a69988e2307}")
+	IID_                                             = ole.NewGUID("{a7d0af36-b912-45fe-9855-091ddc174aec}")
 )
