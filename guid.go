@@ -20,4 +20,5 @@ var (
 	IID_IUIAutomationPropertyChangedEventHandler  = ole.NewGUID("{40cd37d4-c756-4b0c-8c6f-bddfeeb13b50}")
 	IID_IUIAutomationStructureChangedEventHandler = ole.NewGUID("{e81d1b4e-11c5-42f8-9754-e7036c79f054}")
 	IID_IUIAutomationFocusChangedEventHandler     = ole.NewGUID("{c270f6b5-5c69-4290-9745-7a7f97169468}")
+	IID_IUIAutomationProxyFactory                 = ole.NewGUID("{85b94ecd-849d-42b6-b94d-d6db23fdf5a4}")
 )
