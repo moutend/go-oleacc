@@ -63,4 +63,5 @@ var (
 	IID_IUIAutomationInvokePattern                   = ole.NewGUID("{fb377fbe-8ea6-46d5-9c73-6499642d3059}")
 	IID_IUIAutomationNotCondition                    = ole.NewGUID("{f528b657-847b-498c-8896-d52b565407a1}")
 	IID_IUIAutomationDockPattern                     = ole.NewGUID("{fde5ef97-1464-48f6-90bf-43d0948e86ec}")
+	IID_IUIAutomationDropTargetPattern               = ole.NewGUID("{69a095f7-eee4-430e-a46b-fb73b1ae39a5}")
 )
