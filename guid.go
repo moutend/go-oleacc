@@ -71,4 +71,5 @@ var (
 	IID_IUIAutomationScrollPattern                   = ole.NewGUID("{88f4d42a-e881-459d-a77c-73bbbb7e02dc}")
 	IID_IUIAutomationGridItemPattern                 = ole.NewGUID("{78f8ef57-66c3-4e09-bd7c-e79b2004894d}")
 	IID_IUIAutomationTogglePattern                   = ole.NewGUID("{94cf8058-9b8d-4ab9-8bfd-4cd0a33c8c70}")
+	IID_IUIAutomationMultipleViewPattern             = ole.NewGUID("{8d253c91-1dc5-4bb5-b18f-ade16fa495e8}")
 )
