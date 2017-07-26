@@ -69,4 +69,5 @@ var (
 	IID_IUIAutomationTextRangeArray                  = ole.NewGUID("{ce4ae76a-e717-4c98-81ea-47371d028eb6}")
 	IID_IUIAutomationOrCondition                     = ole.NewGUID("{8753f032-3db1-47b5-a1fc-6e34a266c712}")
 	IID_IUIAutomationScrollPattern                   = ole.NewGUID("{88f4d42a-e881-459d-a77c-73bbbb7e02dc}")
+	IID_IUIAutomationGridItemPattern                 = ole.NewGUID("{78f8ef57-66c3-4e09-bd7c-e79b2004894d}")
 )
