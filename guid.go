@@ -43,4 +43,5 @@ var (
 	IID_IUIAutomationObjectModelPattern              = ole.NewGUID("{71c284b3-c14d-4d14-981e-19751b0d756d}")
 	IID_IUIAutomationStylesPattern                   = ole.NewGUID("{85b5f0a2-bd79-484a-ad2b-388c9838d5fb}")
 	IID_IUIAutomationTransformPattern                = ole.NewGUID("{a9b55844-a55d-4ef0-926d-569c16ff89bb}")
+	IID_IUIAutomationTransformPattern2               = ole.NewGUID("{6d74d017-6ecb-4381-b38b-3c17a48ff1c2}")
 )
