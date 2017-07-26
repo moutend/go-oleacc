@@ -50,4 +50,5 @@ var (
 	IID_IUIAutomationTablePattern                    = ole.NewGUID("{620e691c-ea96-4710-a850-754b24ce2417}")
 	IID_IUIAutomationVirtualizedItemPattern          = ole.NewGUID("{6ba3d7a6-04cf-4f11-8793-a8d1cde9969f}")
 	IID_IUIAutomationLegacyIAccessiblePattern        = ole.NewGUID("{828055ad-355b-4435-86d5-3b51c14a9b1b}")
+	IID_IUIAutomationSynchronizedInputPattern        = ole.NewGUID("{2233be0b-afb7-448b-9fda-3b378aa5eae1}")
 )
