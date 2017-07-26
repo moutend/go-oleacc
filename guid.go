@@ -12,4 +12,5 @@ var (
 	IID_IUIAutomation                   = ole.NewGUID("{30cbe57d-d9d0-452a-ab13-7ac5ac4825ee}")
 	IID_IUIAutomation2                  = ole.NewGUID("{34723aff-0c9d-49d0-9896-7ab52df8cd8a}")
 	IID_IUIAutomation3                  = ole.NewGUID("{73D768DA-9B51-4B89-936E-C209290973E7}")
+	IID_IUIAutomation4                  = ole.NewGUID("{1189C02A-05F8-4319-8E21-E817E3DB2860]")
 )
