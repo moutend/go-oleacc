@@ -58,4 +58,5 @@ var (
 	IID_                                             = ole.NewGUID("{a7d0af36-b912-45fe-9855-091ddc174aec}")
 	IID_IUIAutomationSelectionItemPattern            = ole.NewGUID("{a8efa66a-0fda-421a-9194-38021f3578ea}")
 	IID_IUIAutomationCustomNavigationPattern         = ole.NewGUID("{01EA217A-1766-47ED-A6CC-ACF492854B1F}")
+	IID_IUIAutomationPropertyCondition               = ole.NewGUID("{99ebf2cb-5578-4267-9ad4-afd6ea77e94b}")
 )
