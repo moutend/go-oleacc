@@ -24,4 +24,5 @@ var (
 	IID_IUIAutomationProxyFactoryEntry               = ole.NewGUID("{d50e472e-b64b-490c-bca1-d30696f9f289}")
 	IID_IUIAutomationProxyFactoryMapping             = ole.NewGUID("{09e31e18-872d-4873-93d1-1e541ec133fd}")
 	IID_IUIAutomationTextEditTextChangedEventHandler = ole.NewGUID("{92FAA680-E704-4156-931A-E32D5BB38F3F}")
+	IID_IUIAutomationChangesEventHandler             = ole.NewGUID("{58EDCA55-2C3E-4980-B1B9-56C17F27A2A0}")
 )
