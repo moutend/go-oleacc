@@ -15,4 +15,5 @@ var (
 	IID_IUIAutomation4                  = ole.NewGUID("{1189C02A-05F8-4319-8E21-E817E3DB2860]")
 	IID_IUIAutomationCacheRequest       = ole.NewGUID("{b32a92b5-bc25-4078-9c08-d7ee95c48e03}")
 	IID_IUIAutomationCondition          = ole.NewGUID("{352ffba8-0973-437c-a61f-f64cafd81df9}")
+	IID_IUIAutomationTreeWalker         = ole.NewGUID("{4042c624-389c-4afc-a630-9df854a541fc}")
 )
