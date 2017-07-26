@@ -74,4 +74,5 @@ var (
 	IID_IUIAutomationMultipleViewPattern             = ole.NewGUID("{8d253c91-1dc5-4bb5-b18f-ade16fa495e8}")
 	IID_IUIAutomationItemContainerPattern            = ole.NewGUID("{c690fdb2-27a8-423c-812d-429773c9084e}")
 	IID_IUIAutomationTextEditPattern                 = ole.NewGUID("{17E21576-996C-4870-99D9-BFF323380C06}")
+	IID_IUIAutomationExpandCollapsePattern           = ole.NewGUID("{619be086-1f4e-4ee4-bafa-210128738730}")
 )
