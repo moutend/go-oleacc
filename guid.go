@@ -76,4 +76,5 @@ var (
 	IID_IUIAutomationItemContainerPattern            = ole.NewGUID("{c690fdb2-27a8-423c-812d-429773c9084e}")
 	IID_IUIAutomationTextEditPattern                 = ole.NewGUID("{17E21576-996C-4870-99D9-BFF323380C06}")
 	IID_IUIAutomationExpandCollapsePattern           = ole.NewGUID("{619be086-1f4e-4ee4-bafa-210128738730}")
+	IID_IRawElementProviderSimple                    = ole.NewGUID("{d6dd68d1-86fd-4332-8666-9abedea2d24c}")
 )
