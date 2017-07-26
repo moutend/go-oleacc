@@ -27,4 +27,5 @@ var (
 	IID_IUIAutomationTextEditTextChangedEventHandler = ole.NewGUID("{92FAA680-E704-4156-931A-E32D5BB38F3F}")
 	IID_IUIAutomationChangesEventHandler             = ole.NewGUID("{58EDCA55-2C3E-4980-B1B9-56C17F27A2A0}")
 	IID_IUIAutomationElement2                        = ole.NewGUID("{6749c683-f70d-4487-a698-5f79d55290d6}")
+	IID_IUIAutomationElementArray                    = ole.NewGUID("{14314595-b4bc-4055-95f2-58f2e42c9855}")
 )
