@@ -52,4 +52,6 @@ var (
 	IID_IUIAutomationLegacyIAccessiblePattern        = ole.NewGUID("{828055ad-355b-4435-86d5-3b51c14a9b1b}")
 	IID_IUIAutomationSynchronizedInputPattern        = ole.NewGUID("{2233be0b-afb7-448b-9fda-3b378aa5eae1}")
 	IID_IUIAutomationTableItemPattern                = ole.NewGUID("{0b964eb3-ef2e-4464-9c79-61d61737a27e}")
+	IID_IUIAutomationDragPattern                     = ole.NewGUID("{1dc7b570-1f54-4bad-bcda-d36a722fb7bd}")
+	IID_IUIAutomationWindowPattern                   = ole.NewGUID("{0faef453-9208-43ef-bbb2-3b485177864f}")
 )
