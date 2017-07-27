@@ -4,6 +4,8 @@ import (
 	"github.com/go-ole/go-ole"
 )
 
+type HDESK uintptr
+
 type Point struct {
 	X int32
 	Y int32
